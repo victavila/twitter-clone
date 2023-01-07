@@ -6,7 +6,7 @@ const DefaultHeader = () => {
     <header>
       <div className="header__container">
         <div className="header__icon">
-          <FaTwitter></FaTwitter>
+          <FaTwitter className="icon--blue"></FaTwitter>
         </div>
         <div className="header__explore">
           <h2># Explore</h2>
