@@ -11,7 +11,7 @@ header {
 }
 
 .icon--blue {
-  color: #1da1f2;
+  color: var(--main-site-color);
   font-size: 2rem;
 }
 

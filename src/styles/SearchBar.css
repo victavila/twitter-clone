@@ -9,11 +9,11 @@
   top: 10px;
   left: 15px;
   font-size: 20px;
-  color: #8e8e8e;
+  color: var(--gray);
 }
 
 .search__input {
-  background-color: #eff3f4;
+  background-color: var(--light-gray);
 	border: 1px solid transparent;
 	border-radius: 100px;
 	outline: none;
@@ -25,9 +25,9 @@
 
 .search__input:focus {
   background-color: #fff;
-  border-color: #1da1f2;;
+  border-color: var(--main-site-color);
 }
 
 .search__input:focus + .search__icon {
-  color: #1da1f2;
+  color: var(--main-site-color);
 }

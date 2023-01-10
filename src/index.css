@@ -1,3 +1,9 @@
+:root {
+  --main-site-color: #1da1f2;
+  --light-gray: #eff3f4;
+  --gray: #8e8e8e;
+}
+
 * {
   padding: 0;
   margin: 0;
