@@ -1,0 +1,45 @@
+.tweet {
+  display: flex;
+  gap: 8.5px;
+  border-bottom: 1px solid var(--light-gray);
+  padding: 10px;
+}
+
+.profile__icon {
+  border-radius: 50%;
+  color: darkgray;
+  background-color: lightgray;
+  font-size: 2.5rem;
+}
+
+.tweet__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet__header {
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+  padding-bottom: 2.5px;
+}
+
+.tweet__content {
+  padding-bottom: 10px;
+}
+
+.tweet__footer {
+  display: flex;
+  gap: 50px
+}
+
+.footer__replies, .footer__retweets, .footer__likes {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+:is(.footer__replies, .footer__retweets, .footer__likes, .tweet__username, .tweet__date) > p, .footer__icon {
+  color: var(--gray);
+}
