@@ -3,7 +3,7 @@ import DefaultHeader from './components/DefaultHeader';
 import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 import SignUpCard from './components/SignUpCard';
-import Tweet from './components/Tweet';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <DefaultHeader />
       <SearchBar />
       <SignUpCard />
-      <Tweet />
+      <Timeline />
       <Footer />
     </div>
   );

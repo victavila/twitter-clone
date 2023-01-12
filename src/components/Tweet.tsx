@@ -22,7 +22,7 @@ const Tweet = () => {
           </div>
         </div>
         <div className="tweet__content">
-          <p>This is the tweet place holder</p>
+          <p>This is the tweet place holder This is the tweet place holder This is the tweet place holder This is the tweet place holderThis is the tweet place holderThis is the tweet place holderThis is the tweet place holderThis is the tweet place holderThis is the tweet place holder</p>
         </div>
         <div className="tweet_image"></div>
         <div className="tweet__footer">
