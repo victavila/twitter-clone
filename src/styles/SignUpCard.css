@@ -2,6 +2,10 @@
   border: 1px solid var(--light-gray);
   border-radius: 16px;
   width: 350px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  align-self: start;
+  margin: 15px 30px;
 }
 
 .card__container > .card__header {
