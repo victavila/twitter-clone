@@ -1,0 +1,32 @@
+.signup__heading {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.signup__form > button {
+  cursor: pointer;
+  width: 72%;
+  border: none;
+  border-radius: 9999px;
+  height: 43px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000000;
+}
+
+.signup__footer {
+  display: flex;
+  gap: 5px;
+  color: var(--gray);
+  padding-top: 15px;
+  padding-bottom: 20px;
+}

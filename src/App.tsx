@@ -1,12 +1,14 @@
 import React from 'react';
 import LogInModal from './components/LogInModal';
+import SignUpModal from './components/SignUpModal';
 import Explore from './pages/Explore';
 
 function App() {
   return (
     <div className="App">
       <Explore />
-      <LogInModal />
+      <SignUpModal />
+      {true ? <></> :<LogInModal></LogInModal>}
     </div>
   );
 }
