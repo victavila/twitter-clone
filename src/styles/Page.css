@@ -2,7 +2,17 @@
   display: flex;
 }
 
-main {
-  display: grid;
+.main {
+  display: flex;
   grid-template-columns: 600px auto;
+}
+
+.main__middle {
+  width: 600px;
+  border-left: 1px solid var(--light-gray);
+  border-right: 1px solid var(--light-gray);
+}
+
+.main__end {
+  width: auto;
 }

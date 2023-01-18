@@ -7,16 +7,18 @@ import "../styles/Page.css";
 
 const Explore = () => {
   return ( 
-    <div className="explore">
-      <div className="page">
-        <DefaultHeader />
-        <main>
+    <div className="page">
+      <DefaultHeader />
+      <main>
+        <div className="main__middle">
           <SearchBar />
           <Timeline />
+        </div>
+        <div className="main__end">
           <SignUpCard />
-        </main>
-        <Footer />
-      </div>
+        </div>
+      </main>
+      <Footer />
     </div>
   )
 };
