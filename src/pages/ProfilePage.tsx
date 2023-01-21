@@ -1,5 +1,6 @@
 import DefaultHeader from "../components/DefaultHeader";
 import Footer from "../components/Footer";
+import ProfileHeader from "../components/ProfileHeader";
 import SearchBar from "../components/SearchBar";
 import SignUpCard from "../components/SignUpCard";
 import Timeline from "../components/Timeline";
@@ -11,6 +12,7 @@ const ProfilePage = () => {
       <DefaultHeader />
       <main className="main">
         <div className="main__middle">
+          <ProfileHeader />
           <Timeline />
         </div>
         <div className="main__end">
