@@ -1,5 +1,4 @@
-import DefaultHeader from "../components/DefaultHeader";
-import Footer from "../components/Footer";
+import Header from "../components/Header";
 import ProfileHeader from "../components/ProfileHeader";
 import SearchBar from "../components/SearchBar";
 import SignUpCard from "../components/SignUpCard";
@@ -9,7 +8,7 @@ import "../styles/Page.css";
 const ProfilePage = () => {
   return (
     <div className="page">
-      <DefaultHeader />
+      <Header />
       <main className="main">
         <div className="main__middle">
           <ProfileHeader />
@@ -20,7 +19,6 @@ const ProfilePage = () => {
           <SignUpCard />
         </div>
       </main>
-      <Footer />
     </div>
   )
 };

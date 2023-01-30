@@ -3,14 +3,20 @@ header {
   flex-direction: column;
   align-items: flex-end;
   width: 30%;
+  position: fixed;
+  top: 0;
+  height: 100vh;
 }
 
 .header__container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 270px;
   padding-top: 20px;
-  padding-right: 120px;
+}
+
+.header__icon {
+  padding-bottom: 5px;
 }
 
 .icon--blue {
@@ -18,7 +24,97 @@ header {
   font-size: 2rem;
 }
 
-.header__explore > h2 {
-  font-weight: 400;
+.icon--padding {
+  padding: 12px;
+  cursor: pointer;
 }
 
+.icon--padding:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  border-radius: 9999px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  padding-bottom: 35px;
+}
+
+.menu__link {
+  cursor: pointer;
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  padding: 12px;
+}
+
+.menu__link:hover {
+  background-color: var(--light-gray);
+  border-radius: 9999px;
+  border: none;
+}
+
+.menu__link > span {
+  font-size: 21px;
+}
+
+.link__icon {
+  font-size: 23px;
+}
+
+.tweet__btn {
+  background-color: var(--main-site-color);
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 85%;
+}
+
+.tweet__btn:hover {
+  background-color: #1a7dbb;
+}
+
+.logout {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 20px;
+  width: 240px;
+  align-items: center;
+  padding: 12px;
+}
+
+.logout:hover {
+  background-color: var(--light-gray);
+  border-radius: 9999px;
+  border: none;
+}
+
+.logout__user {
+  display: flex;
+  gap: 10px;
+}
+
+.logout__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logout__info > span:first-child {
+  font-weight: 700;
+}
+
+.logout__info > span:nth-child(2) {
+  color: var(--gray);
+}
+
+.ellipsis__icon {
+  font-size: 15px;
+}

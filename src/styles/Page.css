@@ -5,6 +5,7 @@
 .main {
   display: flex;
   grid-template-columns: 600px auto;
+  margin-left: 30%;
 }
 
 .main__middle {
