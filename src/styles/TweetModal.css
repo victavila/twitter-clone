@@ -1,0 +1,36 @@
+.tweet__modal {
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+}
+
+.modal__form {
+  width: 550px;
+  background-color: #fff;
+  border: none;
+  border-radius: 16px;
+}
+
+.modal__exit {
+  padding: 9px 16px 0px 9px;
+}
+
+.exit__icon {
+  font-size: 20px;
+  padding: 7px;
+  cursor: pointer;
+  color: #000;
+}
+
+.exit__icon:hover {
+  border-radius: 9999px;
+  background-color: var(--light-gray);
+}
