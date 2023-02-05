@@ -2,7 +2,7 @@
   display: flex;
   gap: 8.5px;
   border-bottom: 1px solid var(--light-gray);
-  padding: 10px;
+  padding: 15px;
 }
 
 .profile__icon {

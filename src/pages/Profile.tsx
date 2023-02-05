@@ -5,7 +5,7 @@ import SignUpCard from "../components/SignUpCard";
 import Timeline from "../components/Timeline";
 import "../styles/Page.css";
 
-const ProfilePage = () => {
+const Profile = () => {
   return (
     <div className="page">
       <Header />
@@ -23,4 +23,4 @@ const ProfilePage = () => {
   )
 };
 
-export default ProfilePage
+export default Profile;

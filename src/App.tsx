@@ -1,10 +1,11 @@
 import React from 'react';
-import ProfilePage from './pages/ProfilePage';
+import Home from './pages/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <ProfilePage />
+      <Home />
     </div>
   );
 }
