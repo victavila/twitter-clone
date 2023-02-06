@@ -1,6 +1,6 @@
+import FollowCard from "../components/FollowCard";
 import Header from "../components/Header";
 import SearchBar from "../components/SearchBar";
-import SignUpCard from "../components/SignUpCard";
 import Timeline from "../components/Timeline";
 import TweetForm from "../components/TweetForm";
 import "../styles/Page.css";
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="main__end">
           <SearchBar />
-          <SignUpCard />
+          <FollowCard />
         </div>
       </main>
     </div>
