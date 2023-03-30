@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import DefaultHeader from "../components/DefaultHeader"
 import Footer from "../components/Footer"
 import SearchBar from "../components/SearchBar"
@@ -9,7 +10,7 @@ const Explore = () => {
   return ( 
     <div className="page">
       <DefaultHeader />
-      <main>
+      <main className="main">
         <div className="main__middle">
           <SearchBar />
           <Timeline />
@@ -19,6 +20,7 @@ const Explore = () => {
         </div>
       </main>
       <Footer />
+      <Outlet />
     </div>
   )
 };
