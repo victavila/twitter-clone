@@ -50,6 +50,15 @@ header {
   padding: 12px;
 }
 
+.menu__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu__link.active > span {
+  font-weight: 700;
+}
+
 .menu__link:hover {
   background-color: var(--light-gray);
   border-radius: 9999px;

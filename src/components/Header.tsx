@@ -1,30 +1,31 @@
 import { FaBell, FaEllipsisH, FaHashtag, FaHome, FaTwitter, FaUser, FaUserAlt } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/Header.css";
 
 const Header = () => {
   return (
     <header>
       <div className="header__container">
-        <div className="header__icon">
+        <Link to="/home" className="header__icon">
           <FaTwitter className="icon--blue icon--padding"></FaTwitter>
-        </div>
+        </Link>
         <div className="menu">
-          <div className="menu__link">
+          <NavLink to="/home" className="menu__link">
             <FaHome className="link__icon"></FaHome>
             <span>Home</span>
-          </div>
-          <div className="menu__link">
+          </NavLink>
+          <NavLink to="/" className="menu__link">
             <FaHashtag className="link__icon"></FaHashtag>
             <span>Explore</span>
-          </div>
-          <div className="menu__link">
+          </NavLink>
+          <NavLink to="/home" className="menu__link">
             <FaBell className="link__icon"></FaBell>
             <span>Notifications</span>
-          </div>
-          <div className="menu__link">
+          </NavLink>
+          <NavLink to="/userName" className="menu__link">
             <FaUser className="link__icon"></FaUser>
             <span>Profile</span>
-          </div>
+          </NavLink>
         </div>
         <button className="tweet__btn">Tweet</button>
         <div className="logout">
